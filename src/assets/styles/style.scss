@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+}
+.first {
+    width: 50vw;
+    height: 30vh;
+    background: red;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+}
+.textarea {
+    display: inline-block;
+    width: 50vw;
+    height: 30vh;
+    margin: 10vh;
+}
+.button {
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+    background: rgb(143, 93, 93);
+    border: 1px solid rgb(44, 40, 48);
+    border-radius: 3px;
+}
