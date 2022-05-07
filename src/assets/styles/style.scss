@@ -7,30 +7,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: greenyellow;
 }
 .first {
-    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
     height: 30vh;
-    background: red;
-}
-
-.img {
-    width: 400px;
-    height: 300px;
     border: 2px solid black;
 }
 .textarea {
     display: inline-block;
-    width: 50vw;
+    width: 720px;
     height: 30vh;
-    margin: 10vh;
+    margin: 10vh 0 20px;
+    border: 2px solid black;
+    resize: none;
 }
-.button {
-    width: 10%;
-    height: 10%;
-    margin: 5px;
-    background: rgb(143, 93, 93);
-    border: 1px solid rgb(44, 40, 48);
-    border-radius: 3px;
+
+.keyboard {
+    // width: 5%;
+    // height: 7%;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 3px;
+    padding: 3px;
+    flex: 1 1 32px;
+    background: rgb(129, 117, 96);
+}
+.active {
+    background: orange;
 }
