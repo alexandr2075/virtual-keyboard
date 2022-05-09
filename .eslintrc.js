@@ -12,5 +12,6 @@ module.exports = {
   },
   rules: {
     'max-len': 'off',
+    'no-param-reassign': 'off',
   },
 };

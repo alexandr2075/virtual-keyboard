@@ -8,23 +8,23 @@ body {
     justify-content: center;
     align-items: center;
 }
-.first {
+.keyboard {
     display: flex;
     flex-wrap: wrap;
-    width: 720px;
-    height: 30vh;
+    width: 420px;
+    height: 40vh;
     border: 2px solid black;
 }
 .textarea {
     display: inline-block;
-    width: 720px;
+    width: 420px;
     height: 30vh;
     margin: 10vh 0 20px;
     border: 2px solid black;
     resize: none;
 }
 
-.keyboard {
+.key {
     // width: 5%;
     // height: 7%;
     border: 1px solid black;
@@ -33,7 +33,15 @@ body {
     padding: 3px;
     flex: 1 1 32px;
     background: rgb(129, 117, 96);
+    cursor: pointer;
 }
-.active {
-    background: orange;
+.key:hover {
+    background: rgb(129, 117, 96, 0.5);
+}
+.wide {
+    flex: 1 1 70px;
+}
+.key.activ {
+    background: rgb(204, 37, 37);
+    transition: background 0.1s;
 }
